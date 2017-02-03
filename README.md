@@ -19,7 +19,17 @@ Added support MacOs and Linux
 ```
 var verpatch = require('node-verpatch');
 
-verpatch('./path/to/executable', '1.0.0', { publisher: 'publisher'});
+verpatch('./path/to/executable/app.exe', '1.0.0', {
+        product: 'Desktop Application name',
+        company: 'Your company',
+        desc: "Desktop Application Description",
+        copyright: 'Copyright 2017 Your Company. All rights reserved.'
+        publisher: 'publisher'
+    }).then(()=>{
+        //  ok
+    }, error => {
+        console.error(error);
+    });
 
 ```
 
