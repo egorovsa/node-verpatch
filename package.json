@@ -1,0 +1,26 @@
+{
+  "name": "node-verpatch",
+  "version": "1.0.0",
+  "description": "Node wrapper for Verpatch",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egorovsa/node-verpatch.git"
+  },
+  "keywords": [
+    "node",
+    "verpatch"
+  ],
+  "author": "egorovsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egorovsa/node-verpatch/issues"
+  },
+  "homepage": "https://github.com/egorovsa/node-verpatch#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  }
+}
